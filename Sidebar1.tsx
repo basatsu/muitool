@@ -51,15 +51,15 @@ const Sidebar = () => {
 
             <ul>
                 <li className="react-flow__node-input" onDragStart={(event: DragEvent) => onDragStart(event, '入力')} draggable>
-                    入力 Node
+                    input Node
                 </li>
 
                 <li className="react-flow__node-default" onDragStart={(event: DragEvent) => onDragStart(event, 'デフォルト')} draggable>
-                    デフォルト Node
+                    default Node
                 </li>
 
                 <li className="react-flow__node-output" onDragStart={(event: DragEvent) => onDragStart(event, '出力')} draggable>
-                    出力 Node
+                    output Node
                 </li>
 
 

@@ -36,16 +36,7 @@
     background-color: darkkhaki;
 }
 
-@media screen and (min-width: 768px) {
-    .dndflow {
-        flex-direction: row;
-    }
 
-    .dndflow aside {
-        width: 20%;
-        max-width: 180px;
-    }
-}
 
 .savecontrols {
     position: relative;
